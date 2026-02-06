@@ -23,12 +23,14 @@ A **Business Intelligence RAG-based PDF Assistant** that allows users to upload 
 git clone https://github.com/<your-username>/BI_RAG_PDF_Assistant.git
 cd BI_RAG_PDF_Assistant
 
-source venv/bin/activate  # Mac/Linux
 Create virtual environment
 python3.11 -m venv venv
 source venv/bin/activate  # Mac/Linux
+
 Install dependencies
 pip install -r requirements.txt
+
 Add your OpenAI API key in .streamlit/secrets.toml (replace placeholder)
+
 Run the app
 streamlit run app.py
