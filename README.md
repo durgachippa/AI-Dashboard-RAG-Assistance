@@ -27,10 +27,10 @@ cd BI_RAG_PDF_Assistant
 python3.11 -m venv venv
 source venv/bin/activate  # Mac/Linux
 
-3. Install dependencies
+4. Install dependencies
 pip install -r requirements.txt
 
-4. Add your OpenAI API key in .streamlit/secrets.toml (replace placeholder)
+5. Add your OpenAI API key in .streamlit/secrets.toml (replace placeholder)
 
-5. Run the app
+6. Run the app
 streamlit run app.py
